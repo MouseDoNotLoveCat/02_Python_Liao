@@ -5,7 +5,7 @@
 # @Desc  :  文件读写
 
 
-fpath = r'c:\windows\system.ini'
+fpath = r'c:\windows\system.ini'  #真实字符，避免转义
 
 with open(fpath, 'r') as f:
     s = f.read()

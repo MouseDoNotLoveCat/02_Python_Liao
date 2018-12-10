@@ -19,7 +19,7 @@ import os
 # for f in os.listdir(pwd):
 #     fsize = os.path.getsize(f)
 #     mtime = datetime.fromtimestamp(os.path.getmtime(f)).strftime('%y-%m-%d %H:%M') #timestamp：时间戳
-#     flag = '/' if os.path.isdir(f) else ''  # 正则表达式？ 给目录名后加'/'
+#     flag = '/' if os.path.isdir(f) else ''  #  简化的if语句；给目录名后加'/'
 #     print('%10d   %s   %s%s' % (fsize, mtime, f, flag))
 
 
